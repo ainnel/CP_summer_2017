@@ -17,18 +17,18 @@ public class TextFileRead {
 */
 
         File myFile = new File("D:\\file.txt");
-        Scanner scanner = null;
+    Scanner scanner = null;
         try {
-            scanner = new Scanner(myFile);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        int i=0;
-        while (scanner.hasNext()) {
-            String currLine = scanner.nextLine();
-            System.out.println(i + ": " + currLine);
-            i++;
-        }
+                scanner = new Scanner(myFile);
+                } catch (FileNotFoundException e) {
+                e.printStackTrace();
+                }
+                int i=0;
+                while (scanner.hasNext()) {
+                String currLine = scanner.nextLine();
+                System.out.println(i + ": " + currLine);
+                i++;
+                }
     }
 }
 
