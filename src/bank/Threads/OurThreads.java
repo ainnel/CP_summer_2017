@@ -13,7 +13,6 @@ public class OurThreads {
             ourIter++;
         }
     }
-
     public static void main(String[] args) {
         OurThreads ourThreads = new OurThreads();
 
