@@ -15,7 +15,7 @@ public class Homework5 {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         Map map = new HashMap();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Workingfromhome.docx"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("D:\\Workingfromhome.txt"))) {
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
 
